@@ -1,0 +1,25 @@
+en:
+  distributions:
+    show:
+      title: "#{name}'s usertest page"
+      install_from_qr: "Install from QR code"
+      send_share_link: "Send by Email"
+      email_address: "your@email.com"
+      share_button: "Share"
+      send_distribution_link:
+        button_send: 'Send'
+        placeholder: 'Email of your device'
+        progress: 'Sending...'
+        sent: 'An email has been sent.'
+      install: 'Install'
+      copy: 'Copy to Clipboard'
+      copied: 'Copied!'
+    passcode:
+      title: "For install app please input password."
+      passcode: "Password"
+      enter: "Enter"
+    guide:
+      title: 'How to Install'
+      step1: 'Scan the QR code below or send a link to your device.'
+      step2: 'Install the app shown on your device then open it.'
+      step3: 'Your feedback helps developers to improve the app.'

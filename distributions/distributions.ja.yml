@@ -1,0 +1,25 @@
+ja:
+  distributions:
+    show:
+      title: "#{name}の配布ページ"
+      install_from_qr: "QRコード"
+      send_share_link: "アドレスをメールで送信"
+      email_address: "your@email.com"
+      share_button: "送信"
+      send_distribution_link:
+        button_send: '送信'
+        placeholder: '端末のメールアドレス'
+        progress: '送信中...'
+        sent: 'メールを送信しました'
+      install: 'インストール'
+      copy: 'クリップボードにコピー'
+      copied: 'コピーしました'
+    passcode:
+      title: "アプリのインストールには合言葉が必要です。"
+      passcode: "合言葉"
+      enter: "確認"
+    guide:
+      title: 'インストール方法'
+      step1: 'QRコードを読み取るか、リンクをメールで送信します。'
+      step2: '表示されたアプリをインストールして、開いてください。'
+      step3: '改善に役立つ記録が開発者へ送られ、アプリの更新に繋がります。'

@@ -1,0 +1,11 @@
+Hello <%= @email %>,
+
+Click this link to access "<%= @distribution.title %>" now.
+<%= raw @distribution_link %> 
+
+To download the app, open the link above with your device and click the "Install" button.
+
+Thanks,
+
+<%= render :partial => "signature" %>
+

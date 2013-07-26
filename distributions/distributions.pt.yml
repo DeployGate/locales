@@ -1,0 +1,25 @@
+en:
+  distributions:
+    show:
+      title: "Página de teste de usuários do(a) #{name}"
+      install_from_qr: "Instalar do código QR"
+      send_share_link: "Enviar por E-mail"
+      email_address: "seu@e-mail.com"
+      share_button: "Compartilhar"
+      send_distribution_link:
+        button_send: 'Enviar'
+        placeholder: 'E-mail do seu aparelho'
+        progress: 'Enviando...'
+        sent: 'Um e-mail foi enviado.'
+      install: 'Instalar'
+      copy: 'Copiar para a área de transferência'
+      copied: 'Copiado!'
+    passcode:
+      title: "Digite a senha para instalar o aplicativo."
+      passcode: "Senha"
+      enter: "Entrar"
+    guide:
+      title: 'Como Instalar'
+      step1: 'Escaneie o código QR abaixo ou envie o link para o seu aparelho.'
+      step2: 'Instale o aplicativo mostrado no dispositivo e o abra em seguida.'
+      step3: 'O seu comentário ajudará os desenvolvedores a melhorar o aplicativo.'

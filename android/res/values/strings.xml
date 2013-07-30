@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">DeployGate</string>
+    <string name="gcm_no_google_account">Google Account was not found on this device. Push features for DeployGate are disabled.</string>
+  
+    <!--
+    	#############################################################
+     	Home
+    	#############################################################
+    -->
+    <string name="installed_list_title">Installed (<xliff:g id="count" example="5">%d</xliff:g>)</string>
+    <string name="available_list_title">Available (<xliff:g id="count" example="8">%d</xliff:g>)</string>
+    <string name="installed_list_empty_message">No app installed yet.</string>
+    <string name="available_list_empty_message">No available app.</string>
+    <string name="app_list_status_installed">Installed</string>
+    <string name="app_list_status_not_installed">Not installed</string>
+    <string name="app_list_status_update_available">Update <xliff:g id="revision" example="#12">#%1$d</xliff:g> is available</string>
+    <string name="content_descripition_distributed_app">Distributed App</string>
+    
+    <!-- Welcome screen for users who have no application and login session -->
+    <string name="welcome_subject">Hello,</string>
+    <string name="welcome_have_qrcode">have an app QR code for download?</string>
+    <string name="welcome_scan_qrcode_button">Scan QR Code</string>
+    <string name="welcome_sign_in">or please log in.</string>
+    <string name="welcome_sign_in_button">Sign Up / Log In</string>
+    
+    <!-- Labels for the buttons on Action Bar -->
+    <string name="menu_scan_qr">Scan QR</string>
+    <string name="menu_sign_in">Log In</string>
+
+    <!-- Sign out confirmation and progress dialog -->
+    <string name="logout_confirm_title">Sign out</string>
+    <string name="logout_confirm_message">Are you sure you want to sign out from current session?</string>
+    <string name="logout_confirm_proceed_button">Sign out</string>
+    <string name="logout_confirm_cancel_button">Cancel</string>
+    <string name="logout_progress_title">Sign Out</string>
+    <string name="logout_progress_message">In progress…</string>
+    
+    <!-- Barcode Scanner -->
+    <string name="barcode_scan_message">Scan the QR code of the app on DeployGate.</string>
+    
+    
+    <!--
+    	#############################################################
+	    Sign Up and Login
+    	#############################################################
+    -->
+    <string name="title_activity_login">Login to DeployGate</string>
+    <string name="login_greeting">Hello.\nWelcome to DeployGate.</string>
+    <string name="login_about_to_install_html">Before installing &lt;b&gt;<xliff:g id="application_name" example="Example">%1$s</xliff:g>%1$s&lt;/b&gt; app, please log in to DeployGate. It\'s easy and can be done in a minute.</string>
+    <string name="login_deploygate_introduction_html">DeployGate is a private app distribution service. You may install hot fresh apps via invitation from developers. &lt;a href=&quot;http://deploygate.com&quot;&gt;Learn more&lt;/a&gt;</string>
+    
+    <!-- Buttons -->
+    <string name="login_register_button">Sign Up</string>
+    <string name="login_login_button">Log In</string>
+    
+    <!-- Forms -->
+    <string name="login_form_email_hint">Email</string>
+    <string name="login_form_password_hint">Password</string>
+    <string name="login_form_username_hint">Username in 3–20 characters</string>
+    <string name="login_validation_empty_password">Please enter a password.</string>
+    <string name="login_validation_short_password">Password is too short.</string>
+    <string name="login_validation_empty_email">Please enter an email.</string>
+    <string name="login_validation_invalid_email">Please enter a valid email.</string>
+    <string name="login_validation_empty_username">Please enter a username.</string>
+    <string name="login_validation_short_username">Username must be at least 3 characters long.</string>
+    <string name="login_validation_long_username">Username must be 20 characters or shorter.</string>
+    <string name="login_validation_invalid_username">Username can only contain a–z, 0–9, _ and -. The first letter must be an alphabet.</string>
+    <string name="signup_discrimer">Please read our &lt;a href=&quot;https://deploygate.com/terms&quot;&gt;Terms of Service&lt;/a&gt; and &lt;a href=&quot;https://deploygate.com/terms/privacy&quot;&gt;Privacy Policy&lt;/a&gt; before proceeding.</string>
+    <string name="signup_discrimer_2">By clicking the button, you agree to the &lt;a href=&quot;https://deploygate.com/terms&quot;&gt;terms&lt;/a&gt;.</string>
+    <string name="login_error_email_or_password_is_incorrect">Email or password is incorrect.</string>
+    <string name="login_error_device_is_not_found">This device was not found on our server and is being registered. Press the button again to proceed.</string>
+    
+    <!-- Remote Login progress cover -->
+    <string name="login_token_login_in_progress">Remote Log In in progress</string>
+    
+    <!--
+    	#############################################################
+     	Application Details
+    	#############################################################
+    -->
+    <string name="application_detail_version_format_html"><xliff:g id="package_name" example="com.example">%1$s</xliff:g>, &lt;b&gt;<xliff:g id="version_name" example="1.0.0">%2$s</xliff:g>&lt;/b&gt; (<xliff:g id="version_code" example="10">%3$d</xliff:g>)</string>
+    <string name="application_detail_app_icon_description">Icon of the app</string>
+    
+    <!-- Command Buttons -->
+    <string name="application_detail_button_open_app">Open</string>
+    <string name="application_detail_button_install_app">Install</string>
+    <string name="application_detail_button_uninstall_app">Uninstall</string>
+    
+    <!-- Installation guides, warnings, errors -->
+    <string name="application_detail_update_available_text">The latest is <xliff:g id="revision" example="#12">#%1$d</xliff:g>, version <xliff:g id="version_name" example="1.0.0">%2$s</xliff:g>(<xliff:g id="version_code" example="10">%3$d</xliff:g>)</string>
+    <string name="application_detail_button_update">Update</string>
+    <string name="application_detail_install_instruction_html">Please check &lt;a href=&quot;#&quot;&gt;&lt;b&gt;Unknown sources&lt;/b&gt;&lt;a&gt; in your device settings to allow installation of this app.</string>
+    <string name="application_detail_non_market_settings_button">Settings</string>
+    <string name="unknown_sources_guidance_toast_html">Please tick the &lt;b&gt;&quot;Unknown sources&quot;&lt;/b&gt; checkbox.</string>
+    <string name="application_detail_error_signature_mismatch_html">An app signed with a &lt;b&gt;different certificate&lt;/b&gt; (ver. %1$s=%2$d) was already installed. Please uninstall it before installing this app.</string>
+    <string name="application_detail_already_installed_but_not_managed">The app is already present on the device (ver. <xliff:g id="current_version_name" example="1.0.0">%1$s</xliff:g> (<xliff:g id="current_version_code" example="10">%2$d</xliff:g>)) but not managed by DeployGate. Continuing to install will make it managed.</string>
+    <string name="application_detail_multiple_identical_package_found_text">Same app from different author is currently installed. Proceeding to install will change the app owner to &lt;b&gt;<xliff:g id="author_name" example="username">%1$s</xliff:g>&lt;/b&gt;.</string>
+    <string name="application_detail_sdk_version_is_too_low_html">&lt;b&gt;Android <xliff:g id="android_version_name" example="4.0">%4$s</xliff:g>&lt;/b&gt; (<xliff:g id="android_sdk_version" example="android-14">android-%2$d</xliff:g>) or later is required to run this app. This device is Android <xliff:g id="current_android_version" example="2.3">%3$s</xliff:g> (<xliff:g id="current_android_sdk_version" example="android-9">android-%1$s</xliff:g>).&lt;br /&gt;&lt;b&gt;Hint:&lt;/b&gt; You may search for previous versions from Package archive.</string>
+    <string name="application_detail_downgrading_blocked_html">Direct downgrading to an older version code (&lt;b&gt;%1$d&lt;/b&gt; to &lt;b&gt;%2$d&lt;/b&gt;) is not allowed. Please uninstall the current version before installing this version.</string>
+    <string name="distribution_user_name_format">You are participating as tester <xliff:g id="tester_name" example="username">%1$s</xliff:g></string>
+    <string name="distribution_button_edit_tester_name">Edit Name</string>
+    <string name="distribution_button_quit_testing">Quit Testing</string>
+    
+    <!-- Bottom command menu in list -->
+    <string name="application_detail_application_info_button">App info</string>
+    <string name="application_detail_package_archive_button">Package archive</string>
+    <string name="application_detail_distribution_comment_button">Communication board</string>
+    
+    <!-- Progress and error messages shown as a line of text on dimmed screen -->
+    <string name="loading_cover_label_placeholder">Retrieving app data</string>
+ 	<string name="app_detail_error_failed_to_retrieve_app_data">Could not retrieve app data.</string>
+    <string name="distribution_error_failed_to_download_info">Failed to download the app information</string>
+    <string name="loading_error">An error occurred while loading the contents. Try again.</string>
+    <string name="reload">Reload</string>
+    
+    <!-- Progress messages shown on as a replacement of command buttons with progress bar -->
+    <string name="download_progress_start">Initiating download</string>
+    <string name="download_progress_progress"><xliff:g id="progress" example="40">%1$d</xliff:g>%% downloaded</string>
+    <string name="download_progress_complete">Download complete</string>
+    <string name="app_detail_validating_downloaded_package">Validating downloaded package…</string>
+    
+    <!-- Dialogs for quitting from distribution page -->
+    <string name="distribution_uninstall_dialog_title">Quit Testing</string>
+    <string name="distribution_uninstall_dialog_message">Do you want to uninstall the app and quit testing?</string>
+    <string name="distribution_uninstall_dialog_quit">Quit testing</string>
+    <string name="distribution_uninstall_dialog_cancel">Cancel</string>
+    
+	<!-- Error toast -->
+    <string name="distribution_not_found_toast">Could not find the app.</string>
+    <string name="distribution_error_failed_to_join">Failed to join the distribution</string>
+	<string name="app_manager_error_cannot_write_to_external_storage">Cannot write to external storage. (SD card is missing or no space left?)</string>
+    <string name="distribution_invalid_passcode">The access pass code is no longer valid. Please reload the page and input passcode again.</string>
+	
+    <!-- Version archive list -->
+    <string name="binary_list_loading">Retrieving archive list</string>
+    <string name="binary_list_failed_to_load">Failed to retrieve archive list. Try again.</string>
+    <string name="binary_list_min_sdk_version_message">Android <xliff:g id="android_version_name" example="4.0">%1$s</xliff:g> or higher is required</string>
+    <string name="binary_list_currently_installed">Currently Installed</string>
+    <string name="binary_list_different_signature">Conflicting Signature</string>
+    <string name="binary_list_downgrade">Downgrade</string>
+    
+    <!-- Dialog to confirm agreeements to "using distribution apps" guideline -->
+    <string name="terms_title">Installing</string>
+    <string name="terms_message_html">Please read our &lt;a href=\"https://deploygate.com/terms/consumer\">Guidelines for Using Apps on DeployGate&lt;/a> and agree to adhere to the guidelines before proceeding.</string>
+    <string name="terms_agree">Agree</string>
+    <string name="terms_disagree">Disagree</string>
+    
+    <!-- Dialog to change tester name -->
+    <string name="change_display_name_label">Your Tester Name</string>
+    <string name="change_display_name_hint">3 to 20 alphabets, digits and underscores</string>
+    <string name="change_display_name_notice">Tester name will be displayed on your posts. Changes will be affected to your older posts.</string>
+    <string name="change_display_name_save">Save Tester Name</string>
+    <string name="change_display_name_cancel">Cancel</string>
+    <string name="comment_compose_edit_username">Change</string>
+    
+    <!-- Others -->
+    <string name="application_detail_application_name_placeholder">-</string>
+    <string name="application_detail_author_placeholder">-</string>
+    <string name="application_detail_version_placeholder">-</string>
+    <string name="warning_layered_app_detected_title">Layered App is Running</string>
+    <string name="warning_layered_app_detected">You need to disable the app drawing over other app before proceeding because the system disables an install button for security reasons.\n\nPossible candidates:\n<xliff:g id="package_list" example="* Screen Filter">%1$s</xliff:g></string>
+    
+    <!--
+    	#############################################################
+	    Distribution comment board
+    	#############################################################
+    -->
+    <string name="format_unsubscribed_user">[<xliff:g id="display_name" example="username">%s</xliff:g>]</string>
+    <string name="left_user">Left User</string>
+    
+    <!-- Comment compose -->
+    <string name="comment_compose_placeholder">Comment</string>
+    <string name="comment_compose_placeholder_reply">Reply to <xliff:g id="username" example="username">%s</xliff:g>…</string>
+    <string name="comment_compose_post">Post</string>
+    <string name="comment_compose_cancel">Cancel</string>
+    
+    <!-- Comment list -->
+    <string name="comment_list_empty_message">Here is a bulletin board to communicate with the developer of this app. You may post a comment starting from the button on right top.</string>
+    <string name="format_reply_to">In reply to <xliff:g id="username" example="username">%s</xliff:g></string>
+    <string name="comment_fragment_failed_to_load_comments">Failed to load comments, try again</string>
+    <string name="comment_reply">Reply</string>
+    <string name="comment_delete">Delete</string>
+    <string name="notification_new_comment_admin_title">New comment from <xliff:g id="username" example="username">%s</xliff:g></string>
+    <string name="notification_comment_reply_title">Reply from <xliff:g id="username" example="username">%s</xliff:g></string>
+    <string name="notification_comment_sending_title">Sending a new comment</string>
+    
+    <!--
+    	#############################################################
+	    Notifications
+    	#############################################################
+    -->
+    <string name="download_notification_start">Start downloading <xliff:g id="application_name" example="Example">%1$s</xliff:g></string>
+    <string name="download_notification_finish">Finished downloading <xliff:g id="application_name" example="Example">%1$s</xliff:g></string>
+    <string name="download_notification_tap_to_install">Downloaded. Tap here to install.</string>
+    <string name="download_notification_error">Error: <xliff:g id="error_message" example="Network is not connected.">%1$s</xliff:g></string>
+    <string name="download_notification_failed">Failed to download <xliff:g id="application_name" example="Example">%1$s</xliff:g></string>
+    <string name="notification_update_content_text">Update available.</string>
+    <string name="notification_update_ticker_text">Update available: <xliff:g id="application_name" example="Example">%1$s</xliff:g></string>
+    <string name="notification_invitation_content_text">Invited to new app.</string>
+    <string name="notification_invitation_ticker_text">You\'ve invited to new app <xliff:g id="application_name" example="Example">%1$s</xliff:g>.</string>
+    <string name="notification_distribution_description_updated_title">Update</string>
+    <string name="notification_distribution_description_updated_ticker">An update from <xliff:g id="distribution_page_name" example="Distribution Page of Example">%1$s</xliff:g></string>
+    
+    <!-- 
+    	#############################################################
+	    Preferences
+    	#############################################################
+     -->
+    <string name="preferences_title">Preferences</string>
+    <string name="preferences_header_notifications">Notifications</string>
+    <string name="preferences_label_enable_notifications">Update notifications</string>
+    <string name="preferences_label_choose_ringtone">Ringtone</string>
+    <string name="preferences_ringtone_silent">Silent</string>
+    <string name="preferences_label_enable_vibrate">Vibrate</string>
+    
+</resources>

@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">DeployGate</string>
+    <string name="gcm_no_google_account">Googleアカウントが端末に登録されていないため、DeployGateのプッシュ機能は利用できません</string>
+  
+    <!--
+    	#############################################################
+     	Home
+    	#############################################################
+    -->
+    <string name="installed_list_title">インストール済み (%d)</string>
+    <string name="available_list_title">利用可能 (%d)</string>
+    <string name="installed_list_empty_message">アプリがインストールされていません</string>
+    <string name="available_list_empty_message">利用可能なアプリがありません</string>
+    <string name="app_list_status_installed">インストール済み</string>
+    <string name="app_list_status_not_installed">未インストール</string>
+    <string name="app_list_status_update_available">アップデート#%1$dがあります</string>
+    <string name="content_descripition_distributed_app">配布アプリ</string>
+    
+    <!-- Welcome screen for users who have no application and login session -->
+    <string name="welcome_subject">ようこそ</string>
+    <string name="welcome_have_qrcode">ダウンロードするアプリがある方は</string>
+    <string name="welcome_scan_qrcode_button">QRコードを読み取る</string>
+    <string name="welcome_sign_in">もしくは、ログインしてください</string>
+    <string name="welcome_sign_in_button">新規登録・ログイン</string>
+    
+    <!-- Labels for the buttons on Action Bar -->
+    <string name="menu_scan_qr">QRコードを読み取る</string>
+    <string name="menu_sign_in">ログイン</string>
+    
+    <!-- Sign out confirmation and progress dialog -->
+    <string name="logout_confirm_title">ログアウト</string>
+    <string name="logout_confirm_message">現在のセッションからログアウトします。よろしいですか。</string>
+    <string name="logout_confirm_proceed_button">ログアウトする</string>
+    <string name="logout_confirm_cancel_button">キャンセル</string>
+    <string name="logout_progress_title">ログアウト</string>
+    <string name="logout_progress_message">ログアウトしています</string>
+    
+    <!-- Barcode Scanner -->
+    <string name="barcode_scan_message">DeployGateのQRコードを読み取ってください</string>
+    
+    <!--
+    	#############################################################
+	    Sign Up and Login
+    	#############################################################
+    -->
+    <string name="title_activity_login">DeployGateにログイン</string>
+    <string name="login_greeting">こんにちは\nDeployGateへようこそ。</string>
+    <string name="login_about_to_install_html">プライベートアプリ &lt;b&gt;%1$s&lt;/b&gt; のインストールには、 DeployGate へのログインが必要です。新規登録は、メールアドレスとニックネームを入れれば完了です！</string>
+    <string name="login_deploygate_introduction_html">DeployGate はプライベートアプリの配布サービスです。開発者から常に最新のアプリを受け取って試用したり、不具合の報告をしたりすることが簡単にできます。 &lt;a href=&quot;http://deploygate.com&quot;&gt;詳細はこちらから。&lt;/a&gt;</string>
+    
+    <!-- Buttons -->
+    <string name="login_register_button">新規登録</string>
+    <string name="login_login_button">ログイン</string>
+    
+    <!-- Forms -->
+    <string name="login_form_email_hint">メールアドレス</string>
+    <string name="login_form_password_hint">パスワード</string>
+    <string name="login_form_username_hint">希望ユーザー名(3–20文字)</string>
+    <string name="login_validation_empty_password">パスワードを入力してください</string>
+    <string name="login_validation_short_password">パスワードが短すぎるようです</string>
+    <string name="login_validation_empty_email">メールアドレスを入力してください</string>
+    <string name="login_validation_invalid_email">メールアドレスの形式が正しくありません</string>
+    <string name="login_validation_empty_username">ユーザー名を入力してください</string>
+    <string name="login_validation_short_username">ユーザー名は3文字以上で入力してください</string>
+    <string name="login_validation_long_username">ユーザー名は20文字以下で入力してください</string>
+    <string name="login_validation_invalid_username">ユーザー名には a–z, 0–9, _, - のみが使用可能です(先頭はアルファベットのみ)</string>
+    <string name="signup_discrimer">ご登録いただく前に、&lt;br/&gt;&lt;a href=&quot;https://deploygate.com/terms&quot;&gt;利用規約&lt;/a&gt;と&lt;a href=&quot;https://deploygate.com/terms/privacy&quot;&gt;プライバシーポリシー&lt;/a&gt;をご確認ください。</string>
+    <string name="signup_discrimer_2">ボタンをクリックすると、&lt;a href=&quot;https://deploygate.com/terms&quot;&gt;利用規約&lt;/a&gt;に同意したことになります。</string>
+    <string name="login_error_email_or_password_is_incorrect">メールアドレスかパスワードが違います</string>
+    <string name="login_error_device_is_not_found">端末がサーバに登録されていなかったため、現在登録を行っています。もう一度ボタンを押してしてください。</string>
+    
+    <!-- Remote Login progress cover -->
+    <string name="login_token_login_in_progress">リモートログイン中です</string>
+    
+    <!--
+    	#############################################################
+     	Application Details
+    	#############################################################
+    -->
+    <string name="application_detail_version_format_html"><xliff:g id="package_name" example="com.example">%1$s</xliff:g>, &lt;b&gt;<xliff:g id="version_name" example="1.0.0">%2$s</xliff:g>&lt;/b&gt; (<xliff:g id="version_code" example="10">%3$d</xliff:g>)</string>
+    <string name="application_detail_app_icon_description">アプリのアイコン</string>
+    
+    <!-- Command Buttons -->
+    <string name="application_detail_button_open_app">開く</string>
+    <string name="application_detail_button_install_app">インストール</string>
+    <string name="application_detail_button_uninstall_app">アンインストール</string>
+    
+    <!-- Installation guides, warnings, errors -->
+    <string name="application_detail_update_available_text">最新版#%1$d (バージョン%2$s(%3$d))</string>
+    <string name="application_detail_button_update">更新</string>
+    <string name="application_detail_install_instruction_html">このアプリをインストールするには、端末設定の&lt;a href=&quot;#&quot;&gt;&lt;b&gt;提供元不明のアプリ&lt;/b&gt;&lt;/a&gt;のチェックが入っている必要があります。</string>
+    <string name="application_detail_non_market_settings_button">設定</string>
+    <string name="unknown_sources_guidance_toast_html">&lt;b&gt;「提供元不明のアプリ」&lt;/b&gt;にチェックが入っていることを確認してください。</string>
+    <string name="application_detail_error_signature_mismatch_html">&lt;b&gt;異なる証明書&lt;/b&gt;で署名されたアプリ (バージョン %1$s=%2$d) が既にインストールされています。新しいアプリをインストールする前に、一度アンインストールしてください。</string>
+    <string name="application_detail_already_installed_but_not_managed">同じアプリの DeployGate で管理されていないバージョン (%1$s=%2$d) が既にインストールされています。このバージョンをインストールすると DeployGate で管理されるようになります。</string>
+    <string name="application_detail_multiple_identical_package_found_text">別の提供者から同一のパッケージがインストールされています。インストールを続けると、提供者を&lt;b&gt;%1$s&lt;/b&gt;に切り替えます。</string>
+    <string name="application_detail_sdk_version_is_too_low_html">&lt;b&gt;Android %4$s&lt;/b&gt; (android-%2$d) 以上が必要です。この端末は Android %3$s (android-%1$d) です。&lt;br /&gt;もしくは「これまでのバージョン」から過去のバージョンが見つかるかもしれません。</string>
+    <string name="application_detail_downgrading_blocked_html">古いバージョンに直接ダウングレード(&lt;b&gt;%1$d&lt;/b&gt;→&lt;b&gt;%2$d&lt;/b&gt;)することはできません。このバージョンをインストールする前に、現在のバージョンを一度アンインストールしてください。</string>
+	<string name="distribution_user_name_format">%s としてテストに参加しています</string>
+    <string name="distribution_button_edit_tester_name">名前の変更</string>
+    <string name="distribution_button_quit_testing">テストをやめる</string>
+        
+    <!-- Bottom command menu in list -->
+	<string name="application_detail_application_info_button">アプリケーション情報</string>
+    <string name="application_detail_package_archive_button">これまでのバージョン</string>
+    <string name="application_detail_distribution_comment_button">コメントを見る・投稿する</string>
+        
+    <!-- Progress and error messages shown as a line of text on dimmed screen -->
+	<string name="loading_cover_label_placeholder">アプリの情報を取得しています</string>
+    <string name="app_detail_error_failed_to_retrieve_app_data">アプリの情報を取得できませんでした。</string>
+    <string name="distribution_error_failed_to_download_info">アプリ情報の取得に失敗しました。通信状態の良い場所で再度お試しください。</string>
+    <string name="loading_error">読み込み中にエラーが発生しました。再度お試しください。</string>
+    <string name="reload">再読み込み</string>
+        
+    <!-- Progress messages shown on as a replacement of command buttons with progress bar -->
+    <string name="download_progress_start">ダウンロードを開始します</string>
+    <string name="download_progress_progress">%1$d%% 完了</string>
+    <string name="download_progress_complete">ダウンロードが完了しました</string>
+    <string name="app_detail_validating_downloaded_package">ダウンロードしたパッケージを検証しています…</string>
+    
+    <!-- Dialogs for quitting from distribution page -->
+	<string name="distribution_uninstall_dialog_title">テストをやめる</string>
+    <string name="distribution_uninstall_dialog_message">このアプリをアンインストールして利用を中止しますか？</string>
+    <string name="distribution_uninstall_dialog_quit">アプリの利用を中止</string>
+    <string name="distribution_uninstall_dialog_cancel">キャンセル</string>
+    
+	<!-- Error toast -->
+    <string name="distribution_not_found_toast">アプリが見つかりませんでした。提供者にご確認ください。</string>
+    <string name="distribution_error_failed_to_join">このアプリは現在利用することができません。(提供が中止されているか、既に限定数を超えている可能性があります)</string>
+    <string name="app_manager_error_cannot_write_to_external_storage">外部ストレージに書き込むことができませんでした。 (メディアが刺さっていないか、空き容量がない可能性があります)</string>
+    <string name="distribution_invalid_passcode">パスコードが無効なためアクセスできませんでした。ページを再読込して、合言葉を再入力してください。</string>
+    
+    <!-- Version archive list -->
+    <string name="binary_list_loading">パッケージ一覧を取得しています</string>
+    <string name="binary_list_failed_to_load">パッケージ一覧の取得に失敗しました。再度お試しください。</string>
+    <string name="binary_list_min_sdk_version_message">Android %s以上が必要です</string>
+    <string name="binary_list_currently_installed">インストール済み</string>
+    <string name="binary_list_different_signature">署名が異なります</string>
+    <string name="binary_list_downgrade">ダウングレード</string>
+    
+    <!-- Dialog to confirm agreeements to "using distribution apps" guideline -->
+    <string name="terms_title">アプリのインストール</string>
+    <string name="terms_message_html">&lt;a href=\"https://deploygate.com/terms/consumer\">DeployGate 配信アプリケーション利用ガイドライン&lt;/a>をご確認いただき、同意の上でご利用ください。</string>
+    <string name="terms_agree">同意する</string>
+    <string name="terms_disagree">同意しない</string>
+
+    <!-- Dialog to change tester name -->
+    <string name="change_display_name_label">テスター名</string>
+    <string name="change_display_name_hint">3-20文字のアルファベット、数字、_</string>
+    <string name="change_display_name_notice">この名前はコメントの投稿に使用されます。変更は過去の投稿にも適用されます。</string>
+    <string name="change_display_name_save">テスター名を保存</string>
+    <string name="change_display_name_cancel">キャンセル</string>
+    <string name="comment_compose_edit_username">変更</string>
+    
+    <!-- Others -->
+    <string name="application_detail_application_name_placeholder">-</string>
+    <string name="application_detail_author_placeholder">-</string>
+    <string name="application_detail_version_placeholder">-</string>
+    <string name="warning_layered_app_detected_title">レイヤーアプリが実行中です</string>
+    <string name="warning_layered_app_detected">インストールの前に「他のアプリに重ねて描画」するアプリを無効にする必要があります。実行中は、セキュリティ上の理由によりシステムによってインストールボタンが無効化されます。\n\n可能性のあるアプリ:\n<xliff:g id="package_list" example="* Screen Filter">%1$s</xliff:g></string>
+    
+    
+    <!--
+    	#############################################################
+	    Distribution comment board
+    	#############################################################
+    -->
+    <string name="format_unsubscribed_user">[<xliff:g id="display_name" example="username">%s</xliff:g>]</string>
+    <string name="left_user">退会ユーザー</string>
+    
+    <!-- Comment compose -->
+    <string name="comment_compose_placeholder">コメント</string>
+    <string name="comment_compose_placeholder_reply">%sへの返信</string>
+    <string name="comment_compose_post">書き込む</string>
+    <string name="comment_compose_cancel">キャンセル</string>
+
+    <!-- Comment list -->
+    <string name="comment_list_empty_message">開発者とコミュニケーションをとることができる掲示板です。右上のボタンから投稿できます。</string>
+    <string name="format_reply_to">%sへの返信</string>
+	<string name="comment_fragment_failed_to_load_comments">コメントを取得できませんでした。ネットワークの状態を確認して再度お試しください。</string>
+    <string name="comment_reply">このコメントに返信</string>
+    <string name="comment_delete">コメントを削除</string>
+    <string name="notification_new_comment_admin_title">%sからの新しいコメント</string>
+  	<string name="notification_comment_reply_title">%sからの返信</string>
+    <string name="notification_comment_sending_title">コメントを送信しています</string>
+    
+    <!--
+    	#############################################################
+	    Notifications
+    	#############################################################
+    -->
+    <string name="download_notification_start">ダウンロード開始: %1$s</string>
+    <string name="download_notification_finish">ダウンロード完了: %1$s</string>
+    <string name="download_notification_tap_to_install">ダウンロードしました。タップしてインストール。</string>
+    <string name="download_notification_error">エラー: %1$s</string>
+    <string name="download_notification_failed">ダウンロード失敗: %1$s</string>
+    <string name="notification_update_content_text">新しいバージョンのアプリがあります</string>
+    <string name="notification_update_ticker_text">%1$sの新しいバージョンがあります</string>
+    <string name="notification_invitation_content_text">新しいアプリに招待されました</string>
+    <string name="notification_invitation_ticker_text">新しいアプリ%1$sに招待されました</string>
+    <string name="notification_distribution_description_updated_title">アプリのお知らせが更新されました</string>
+    <string name="notification_distribution_description_updated_ticker">%sの新着お知らせ</string>
+    
+    <!-- 
+    	#############################################################
+	    Preferences
+    	#############################################################
+     -->
+    <string name="preferences_title">設定</string>
+    <string name="preferences_header_notifications">通知</string>
+    <string name="preferences_label_enable_notifications">アプリ更新の通知</string>
+    <string name="preferences_label_choose_ringtone">着信音</string>
+    <string name="preferences_ringtone_silent">無音</string>
+    <string name="preferences_label_enable_vibrate">バイブレーション</string>
+    
+</resources>

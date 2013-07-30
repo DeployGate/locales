@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">DeployGate</string>
+	<string name="gcm_no_google_account">Conta do Google não foi encontrada no dispositivo. Funcionalidades para notificações em push do DeployGate estão desativadas.</string>
+        
+    <!--
+    	#############################################################
+     	Home
+    	#############################################################
+    -->
+    <string name="installed_list_title">Instalados (%d)</string>
+    <string name="available_list_title">Disponíveis (%d)</string>
+    <string name="installed_list_empty_message">Nenhum aplicativo instalado ainda.</string>
+    <string name="available_list_empty_message">Nenhum aplicativo disponível.</string>
+    <string name="app_list_status_installed">Instalado</string>
+    <string name="app_list_status_not_installed">Não instalado</string>
+    <string name="app_list_status_update_available">Atualização #%1$d está disponível</string>
+    <string name="content_descripition_distributed_app">Aplicativo Distribuído</string>
+    
+    <!-- Welcome screen for users who have no application and login session -->
+    <string name="welcome_subject">Bem-vindo,</string>
+    <string name="welcome_have_qrcode">tem um aplicativo para escanear um código QR?</string>
+    <string name="welcome_scan_qrcode_button">Escanear código QR</string>
+    <string name="welcome_sign_in">ou fazer login.</string>
+    <string name="welcome_sign_in_button">Cadastrar / Fazer Login</string>
+    
+    <!-- Labels for the buttons on Action Bar -->
+    <string name="menu_scan_qr">Escanear código QR</string>
+    <string name="menu_sign_in">Fazer Login</string>
+    
+    <!-- Sign out confirmation and progress dialog -->
+    <string name="logout_confirm_title">Sair</string>
+    <string name="logout_confirm_message">Tem certeza de que quer sair da sessão atual?</string>
+    <string name="logout_confirm_proceed_button">Sair</string>
+    <string name="logout_confirm_cancel_button">Cancelar</string>
+    <string name="logout_progress_title">Sair</string>
+    <string name="logout_progress_message">Saindo…</string>
+    
+    <!-- Barcode Scanner -->
+    <string name="barcode_scan_message">Escaneie o código QR do aplicativo no DeployGate.</string>
+    
+    <!--
+    	#############################################################
+	    Sign Up and Login
+    	#############################################################
+    -->
+    <string name="title_activity_login">Fazer login no DeployGate</string>
+    <string name="login_greeting">Olá.\nBem-vindo ao DeployGate.</string>
+    <string name="login_about_to_install_html">Faça login ao DeployGate antes de instalar o aplicativo &lt;b&gt;%1$s&lt;/b&gt;. O registro é simples e pode ser feito em um minuto.</string>
+    <string name="login_deploygate_introduction_html">DeployGate é um serviço de distribuição de aplicativo privado. Você pode instalar aplicativos novos através de convite dos desenvolvedores. &lt;a href=&quot;http://deploygate.com&quot;&gt;Saiba mais&lt;/a&gt;</string>
+    
+    <!-- Buttons -->
+    <string name="login_register_button">Cadastrar</string>
+    <string name="login_login_button">Fazer Login</string>
+    
+    <!-- Forms -->
+    <string name="login_form_email_hint">E-mail</string>
+    <string name="login_form_password_hint">Senha</string>
+    <string name="login_form_username_hint">Use um nome de usuário entre 3–20 letras</string>
+    <string name="login_validation_empty_password">Digite sua senha.</string>
+    <string name="login_validation_short_password">Senha é curta.</string>
+    <string name="login_validation_empty_email">Digite seu e-mail.</string>
+    <string name="login_validation_invalid_email">Digite um e-mail válido.</string>
+    <string name="login_validation_empty_username">Digite um nome de usuário.</string>
+    <string name="login_validation_short_username">Nome de usuário deve ter no mínimo 3 letras.</string>
+    <string name="login_validation_long_username">Nome de usuário deve ter no máximo 20 letras.</string>
+    <string name="login_validation_invalid_username">O nome de usuário pode conter apenas letras, números, sublinhados e traços. O nome deve ser iniciado com uma letra.</string>
+    <string name="signup_discrimer">Por favor, leia nossos &lt;a href=&quot;https://deploygate.com/terms&quot;&gt;Termos de Serviço&lt;/a&gt; e &lt;a href=&quot;https://deploygate.com/terms/privacy&quot;&gt;Política de Privacidade&lt;/a&gt; antes de prosseguir.</string>
+    <string name="signup_discrimer_2">Ao clicar no botão, você concorda com os &lt;a href=&quot;https://deploygate.com/terms&quot;&gt;termos&lt;/a&gt;.</string>
+    <string name="login_error_email_or_password_is_incorrect">E-mail ou senha está incorreta.</string>
+    <string name="login_error_device_is_not_found">Este dispositivo não foi encontrado em nosso servidor e está sendo registrado. Pressione o botão novamente para continuar.</string>
+    
+    <!-- Remote Login progress cover -->
+    <string name="login_token_login_in_progress">Login remoto em progresso</string>
+    
+    <!--
+    	#############################################################
+     	Application Details
+    	#############################################################
+    -->
+    <string name="application_detail_version_format_html"><xliff:g id="package_name" example="com.example">%1$s</xliff:g>, &lt;b&gt;<xliff:g id="version_name" example="1.0.0">%2$s</xliff:g>&lt;/b&gt; (<xliff:g id="version_code" example="10">%3$d</xliff:g>)</string>
+    <string name="application_detail_app_icon_description">Ícone do aplicativo</string>
+
+    <!-- Command Buttons -->
+    <string name="application_detail_button_open_app">Abrir</string>
+    <string name="application_detail_button_install_app">Instalar</string>
+    <string name="application_detail_button_uninstall_app">Desinstalar</string>
+    
+    <!-- Installation guides, warnings, errors -->
+    <string name="application_detail_update_available_text">O pacote mais recente é <xliff:g id="revision" example="#12">#%1$d</xliff:g>, versão <xliff:g id="version_name" example="1.0.0">%2$s</xliff:g>(<xliff:g id="version_code" example="10">%3$d</xliff:g>)</string>
+    <string name="application_detail_button_update">Atualizar</string>
+    <string name="application_detail_install_instruction_html">Verifique se a opção &lt;a href=&quot;#&quot;&gt;&lt;b&gt;Fontes desconhecidas&lt;/b&gt;&lt;a&gt; está marcada nas configurações para autorizar a instalação deste aplicativo.</string>
+    <string name="application_detail_non_market_settings_button">Configurações</string>
+    <string name="unknown_sources_guidance_toast_html">Marque a opção &lt;b&gt;&quot;Fontes desconhecidas.&quot;&lt;/b&gt;</string>
+    <string name="application_detail_error_signature_mismatch_html">Um aplicativo assinado com um &lt;b&gt;certificado diferente&lt;/b&gt; (ver. %1$s=%2$d) já está instalado. Desinstale antes de proceder com a instalação deste aplicativo.</string>
+    <string name="application_detail_already_installed_but_not_managed">O aplicativo já está instalado (ver. %1$s=%2$d) mas não é gerenciado pelo DeployGate. Ele passará a ser gerenciado pelo DeployGate após a instalação.</string>
+    <string name="application_detail_multiple_identical_package_found_text">O mesmo pacote de um distribuidor diferente está instalado atualmente. Continuar com a instalação mudará o distribuidor do aplicativo para &lt;b&gt;%1$s&lt;/b&gt;.</string>
+    <string name="application_detail_sdk_version_is_too_low_html">&lt;b&gt;Android %4$s&lt;/b&gt; (android-%2$d) ou posterior é necessário para executar este aplicativo. Este aparelho é um Android %3$s (android-%1$d).&lt;br /&gt;&lt;b&gt;Dica:&lt;/b&gt; Você pode encontrar versões anteriores no arquivo de pacotes.</string>
+	<string name="application_detail_downgrading_blocked_html">Não é possivel retornar diretamente para uma versão antiga (de &lt;b&gt;%1$d&lt;/b&gt; para &lt;b&gt;%2$d&lt;/b&gt;). Por favor, desinstale a versão atual antes de instalar esta versão.</string>
+	<string name="distribution_user_name_format">Você está participando como testador %s</string>
+    <string name="distribution_button_edit_tester_name">Editar Nome</string>
+    <string name="distribution_button_quit_testing">Sair do Teste</string>
+        
+    <!-- Bottom command menu in list -->
+    <string name="application_detail_application_info_button">Informações do Aplicativo</string>
+    <string name="application_detail_package_archive_button">Arquivo de pacotes</string>
+    <string name="application_detail_distribution_comment_button">Mural de comunicações</string>
+    
+    <!-- Progress and error messages shown as a line of text on dimmed screen -->
+    <string name="loading_cover_label_placeholder">Obtendo dados do aplicativo</string>
+    <string name="app_detail_error_failed_to_retrieve_app_data">Não foi possível obter dados do aplicativo.</string>
+    <string name="distribution_error_failed_to_download_info">Falha ao baixar as informações do aplicativo</string>
+    <string name="loading_error">Ocorreu um erro ao carregar o conteúdo. Tente novamente.</string>
+    <string name="reload">Recarregar</string>
+    
+    <!-- Progress messages shown on as a replacement of command buttons with progress bar -->
+    <string name="download_progress_start">Inicializando download</string>
+    <string name="download_progress_progress">%1$d%% do download concluído</string>
+    <string name="download_progress_complete">Download concluído</string>
+    <string name="app_detail_validating_downloaded_package">Validando pacote baixado…</string>
+    
+    <!-- Dialogs for quitting from distribution page -->
+    <string name="distribution_uninstall_dialog_title">Parar de Testar</string>
+    <string name="distribution_uninstall_dialog_message">Você deseja desinstalar o aplicativo e parar de testar?</string>
+    <string name="distribution_uninstall_dialog_quit">Parar de Testar</string>
+    <string name="distribution_uninstall_dialog_cancel">Cancelar</string>
+    
+    <!-- Error toast -->
+    <string name="distribution_not_found_toast">Não foi possível encontrar o aplicativo.</string>
+    <string name="distribution_error_failed_to_join">Falha ao ingressar na distribuição</string>
+    <string name="app_manager_error_cannot_write_to_external_storage">Não foi possível gravar no armazenamento externo. (O cartão SD está desconectado ou não há mais espaço disponível)</string>
+    <string name="distribution_invalid_passcode">A senha de acesso não é mais válida. Por favor, recarregue a página e insira o código novamente.</string>
+    
+	<!-- Version archive list -->
+    <string name="binary_list_loading">Obtendo a lista de arquivos</string>
+    <string name="binary_list_failed_to_load">Falha ao obter a lista de arquivos. Tente novamente.</string>
+    <string name="binary_list_min_sdk_version_message">É necessário ter Android %s ou superior</string>
+    <string name="binary_list_currently_installed">Atualmente Instalado</string>
+    <string name="binary_list_different_signature">Assinaturas Conflitantes</string>
+    <string name="binary_list_downgrade">Retornar a uma Versão Anterior</string>
+    
+    <!-- Dialog to confirm agreeements to "using distribution apps" guideline -->
+    <string name="terms_title">Instalando</string>
+    <string name="terms_message_html">Por favor, leia nossas &lt;a href=\"https://deploygate.com/terms/consumer\">Diretrizes Para o Uso de Aplicativos no DeployGate&lt;/a> e concorte em aderi-las antes de prosseguir.</string>
+    <string name="terms_agree">Concordo</string>
+    <string name="terms_disagree">Discordo</string>
+    
+    <!-- Dialog to change tester name -->
+    <string name="change_display_name_label">Seu nome de testante</string>
+    <string name="change_display_name_hint">3 a 20 letras, números e sublinhados</string>
+    <string name="change_display_name_notice">O nome do testador será exibido em seus comentários sobre este aplicativo e também será aplicado aos seus comentários antigos.</string>
+    <string name="change_display_name_save">Salvar nome de testante</string>
+    <string name="change_display_name_cancel">Cancelar</string>
+    <string name="comment_compose_edit_username">Alterar</string>
+    
+    <!-- Others -->
+    <string name="application_detail_application_name_placeholder">-</string>
+    <string name="application_detail_author_placeholder">-</string>
+    <string name="application_detail_version_placeholder">-</string>
+    <string name="warning_layered_app_detected_title">Aplicativos que desenham sobre outros está rodando</string>
+    <string name="warning_layered_app_detected">Você precisa desativar aplicativos que desenham sobre outros aplicativos antes de prosseguir, pois o sistema desabilita o botão de instalação por razões de segurança. Possíveis candidatos:\n<xliff:g id="package_list" example="* Screen Filter">%1$s</xliff:g></string>
+    
+	<!--
+    	#############################################################
+	    Distribution comment board
+    	#############################################################
+    -->
+    <string name="format_unsubscribed_user">[%s]</string>
+    <string name="left_user">Usuário que Saiu</string>
+    
+    <!-- Comment compose -->
+    <string name="comment_compose_placeholder">Comentar</string>
+    <string name="comment_compose_placeholder_reply">Respondendo para %s…</string>
+    <string name="comment_compose_post">Postar</string>
+    <string name="comment_compose_cancel">Cancelar</string>
+    
+    <!-- Comment list -->
+    <string name="comment_list_empty_message">Aqui é um fórum para se comunicar com o desenvolvedor deste aplicativo. Você pode postar um comentário a partir do botão na parte superior direita.</string>
+    <string name="format_reply_to">Resposta para %s</string>
+    <string name="comment_fragment_failed_to_load_comments">Falha ao carregar comentários, tente novamente</string>
+    <string name="comment_reply">Responder</string>
+    <string name="comment_delete">Apagar</string>
+	<string name="notification_new_comment_admin_title">Novo comentário de %s</string>
+    <string name="notification_comment_reply_title">Resposta de %s</string>
+    <string name="notification_comment_sending_title">Enviando um novo comentário</string>
+    
+    <!--
+    	#############################################################
+	    Notifications
+    	#############################################################
+    -->
+    <string name="download_notification_start">Iniciando download de %1$s</string>
+    <string name="download_notification_finish">Download de %1$s concluído</string>
+    <string name="download_notification_tap_to_install">Download concluído. Toque aqui para instalar.</string>
+    <string name="download_notification_error">Erro: %1$s</string>
+    <string name="download_notification_failed">Falha no download de %1$s</string>
+    <string name="notification_update_content_text">Atualização disponível</string>
+    <string name="notification_update_ticker_text">Atualização disponível: %1$s</string>
+    <string name="notification_invitation_content_text">Convite para um novo aplicativo.</string>
+    <string name="notification_invitation_ticker_text">Você foi convidado para um novo aplicativo %1$s.</string>
+    <string name="notification_distribution_description_updated_title">Atualizar</string>
+    <string name="notification_distribution_description_updated_ticker">Uma atualização de %s</string>
+    
+    <!-- 
+      #############################################################
+      Preferences
+      #############################################################
+     -->
+    <string name="preferences_title">Preferências</string>
+    <string name="preferences_header_notifications">Notificações</string>
+    <string name="preferences_label_enable_notifications">Notificações de atualizações</string>
+    <string name="preferences_label_choose_ringtone">Som de notificação</string>
+    <string name="preferences_ringtone_silent">Nenhum</string>
+    <string name="preferences_label_enable_vibrate">Vibrar</string>
+</resources>

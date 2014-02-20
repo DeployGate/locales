@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">DeployGate</string>
+    <string name="gcm_no_google_account">由于无法在此设备上找到谷歌账户，DeployGate的消息推送功能将无法使用。</string>
+  
+    <!--
+    	#############################################################
+     	Home
+    	#############################################################
+    -->
+    <string name="installed_list_title">已安装(<xliff:g id="count" example="5">%d</xliff:g>)</string>
+    <string name="available_list_title">可用(<xliff:g id="count" example="8">%d</xliff:g>)</string>
+    <string name="installed_list_empty_message">没有安装任何应用。</string>
+    <string name="available_list_empty_message">没有可安装应用。</string>
+    <string name="app_list_status_installed">已安装</string>
+    <string name="app_list_status_not_installed">未安装</string>
+    <string name="app_list_status_update_available">新版本<xliff:g id="revision" example="#12">#%1$d</xliff:g></string>
+    <string name="content_descripition_distributed_app">已分发应用</string>
+    
+    <!-- Welcome screen for users who have no application and login session -->
+    <string name="welcome_subject">您好，</string>
+    <string name="welcome_have_qrcode">有可供下载的二维码?</string>
+    <string name="welcome_scan_qrcode_button">扫描二维码</string>
+    <string name="welcome_sign_in">或登陆</string>
+    <string name="welcome_sign_in_button">登陆</string>
+
+    <!-- Labels for the buttons on Action Bar -->
+    <string name="menu_scan_qr">扫描二维码</string>
+    <string name="menu_sign_in">登陆</string>
+
+    <!-- Sign out confirmation and progress dialog -->
+    <string name="logout_confirm_title">注销</string>
+    <string name="logout_confirm_message">您确定要注销吗？</string>
+    <string name="logout_confirm_proceed_button">注销</string>
+    <string name="logout_confirm_cancel_button">取消</string>
+    <string name="logout_progress_title">注销</string>
+    <string name="logout_progress_message">处理中，请稍候</string>
+    
+    <!-- Barcode Scanner -->
+    <string name="barcode_scan_message">通过DeployGate来扫描应用的二维码。</string>
+    
+    
+    <!--
+    	#############################################################
+	    Sign Up and Login
+    	#############################################################
+    -->
+    <string name="title_activity_login">登陆DeployGate</string>
+    <string name="login_greeting">欢迎使用DeployGate</string>
+    <string name="login_about_to_install_html">正在安装&lt;b&gt;<xliff:g id="application_name" example="Example">%1$s</xliff:g>%1$s&lt;/b&gt;应用之前，请先登陆DeployGate。您只需要一分钟就可以完成登陆。</string>
+    <string name="login_deploygate_introduction_html">DeployGate是一个应用的测试分发平台。在DeployGate通过开发者发送的邀请，您将能够在最新潮的应用发布之前体验它。&lt;a href=&quot;http://deploygate.com&quot;&gt;了解更多&lt;/a&gt;</string>
+    
+    <!-- Buttons -->
+    <string name="login_register_button">注册</string>
+    <string name="login_login_button">登陆</string>
+    
+    <!-- Forms -->
+    <string name="login_form_email_hint">邮件地址</string>
+    <string name="login_form_password_hint">密码</string>
+    <string name="login_form_username_hint">用户名在3~20个字符之内</string>
+    <string name="login_validation_empty_password">请输入密码</string>
+    <string name="login_validation_short_password">密码太短</string>
+    <string name="login_validation_empty_email">请输入邮件地址</string>
+    <string name="login_validation_invalid_email">请输入有效的邮件地址</string>
+    <string name="login_validation_empty_username">请输入用户名</string>
+    <string name="login_validation_short_username">用户名不能少于3个字符</string>
+    <string name="login_validation_long_username">用户名不能超过20个字符</string>
+    <string name="login_validation_invalid_username">用户名必须以字母开头，且只能包含字母、数字、下划线和短线。</string>
+    <string name="signup_discrimer">请先阅读我们的&lt;a href=&quot;https://deploygate.com/terms&quot;&gt;服务条款&lt;/a&gt;和&lt;a href=&quot;https://deploygate.com/terms/privacy&quot;&gt;隐私政策&lt;/a&gt;</string>
+    <string name="signup_discrimer_2">点击此按钮表明您已同意&lt;a href=&quot;https://deploygate.com/terms&quot;&gt;如下条款&lt;/a&gt;.</string>
+    <string name="login_error_email_or_password_is_incorrect">用户名或密码错误</string>
+    <string name="login_error_device_is_not_found">本设备尚未注册。要开始注册，请点击按钮继续。</string>
+    
+    <!-- Remote Login progress cover -->
+    <string name="login_token_login_in_progress">正在远程登陆</string>
+    
+    <!--
+    	#############################################################
+     	Application Details
+    	#############################################################
+    -->
+    <string name="application_detail_version_format_html"><xliff:g id="package_name" example="com.example">%1$s</xliff:g>, &lt;b&gt;<xliff:g id="version_name" example="1.0.0">%2$s</xliff:g>&lt;/b&gt; (<xliff:g id="version_code" example="10">%3$d</xliff:g>)</string>
+    <string name="application_detail_app_icon_description">应用图标</string>
+    
+    <!-- Command Buttons -->
+    <string name="application_detail_button_open_app">打开</string>
+    <string name="application_detail_button_install_app">安装</string>
+    <string name="application_detail_button_uninstall_app">卸载</string>
+    
+    <!-- Installation guides, warnings, errors -->
+    <string name="application_detail_update_available_text">最新版是<xliff:g id="revision" example="#12">#%1$d</xliff:g>, version <xliff:g id="version_name" example="1.0.0">%2$s</xliff:g>(<xliff:g id="version_code" example="10">%3$d</xliff:g>)</string>
+    <string name="application_detail_button_update">升级</string>
+    <string name="application_detail_install_instruction_html">请在您的设备的设置中选中&lt;a href=&quot;#&quot;&gt;&lt;b&gt;未知来源&lt;/b&gt;&lt;a&gt;来允许安装此应用。</string>
+    <string name="application_detail_non_market_settings_button">设置</string>
+    <string name="unknown_sources_guidance_toast_html">请选中&lt;b&gt;&quot;未知来源&quot;&lt;/b&gt;。</string>
+    <string name="application_detail_error_signature_mismatch_html">已安装了使用不同&lt;b&gt;证书&lt;/b&gt; (ver. %1$s=%2$d) 的应用，请在安装前卸载此应用。</string>
+    <string name="application_detail_already_installed_but_not_managed">(ver. <xliff:g id="current_version_name" example="1.0.0">%1$s</xliff:g> (<xliff:g id="current_version_code" example="10">%2$d</xliff:g>))已安装，但并不处于DeployGate的管理之下，点击继续将安装应用并将其置于DeployGate管理之下。</string>
+    <string name="application_detail_multiple_identical_package_found_text">已安装来自另一个开发者的相同应用，继续安装会将应用的开发者更改为&lt;b&gt;<xliff:g id="author_name" example="username">%1$s</xliff:g>&lt;/b&gt;.</string>
+    <string name="application_detail_sdk_version_is_too_low_html">&lt;b&gt;运行此应用需要Android<xliff:g id="android_version_name" example="4.0">%4$s</xliff:g>&lt;/b&gt; (<xliff:g id="android_sdk_version" example="android-14">android-%2$d</xliff:g>)或以上版本。此设备是Android<xliff:g id="current_android_version" example="2.3">%3$s</xliff:g> (<xliff:g id="current_android_sdk_version" example="android-9">android-%1$s</xliff:g>).&lt;br /&gt;&lt;b&gt;Hint:&lt;/b&gt; 您可以从版本列表中搜索安装对应的版本。</string>
+    <string name="application_detail_downgrading_blocked_html">无法直接安装更旧的版本(&lt;b&gt;%1$d&lt;/b&gt; to &lt;b&gt;%2$d&lt;/b&gt;)，请卸载当前版本再安装。</string>
+    <string name="distribution_user_name_format">您将作为测试人员加入<xliff:g id="tester_name" example="username">%1$s</xliff:g></string>
+    <string name="distribution_button_edit_tester_name">修改昵称</string>
+    <string name="distribution_button_quit_testing">退出应用测试</string>
+    
+    <!-- Bottom command menu in list -->
+    <string name="application_detail_application_info_button">应用信息</string>
+    <string name="application_detail_package_archive_button">应用</string>
+    <string name="application_detail_distribution_comment_button">布告栏</string>
+
+    <!-- Progress and error messages shown as a line of text on dimmed screen -->
+    <string name="loading_cover_label_placeholder">获取应用数据</string>
+ 	<string name="app_detail_error_failed_to_retrieve_app_data">无法获取应用数据</string>
+    <string name="distribution_error_failed_to_download_info">下载应用信息失败</string>
+    <string name="loading_error">加载出错，请重试。</string>
+    <string name="reload">重新加载</string>
+    
+    <!-- Progress messages shown on as a replacement of command buttons with progress bar -->
+    <string name="download_progress_start">开始下载</string>
+    <string name="download_progress_progress">下载<xliff:g id="progress" example="40">%1$d</xliff:g>%%</string>
+    <string name="download_progress_complete">下载完成</string>
+    <string name="app_detail_validating_downloaded_package">验证下载的应用包</string>
+    
+    <!-- Dialogs for quitting from distribution page -->
+    <string name="distribution_uninstall_dialog_title">退出应用测试</string>
+    <string name="distribution_uninstall_dialog_message">您真的要删除应用并退出测试吗？</string>
+    <string name="distribution_uninstall_dialog_quit">退出应用测试</string>
+    <string name="distribution_uninstall_dialog_cancel">取消</string>
+    
+	<!-- Error toast -->
+    <string name="distribution_not_found_toast">找不到应用</string>
+    <string name="distribution_error_failed_to_join">目前无法使用该应用</string>
+	<string name="app_manager_error_cannot_write_to_external_storage">无法使用外部存储。（没有SD卡或是没有存储空间）</string>
+    <string name="distribution_invalid_passcode">验证码已失效，请重新加载页面并输入新的验证码。</string>
+	
+    <!-- Version archive list -->
+    <string name="binary_list_loading">获取版本列表</string>
+    <string name="binary_list_failed_to_load">获取版本列表失败，请重试。</string>
+    <string name="binary_list_min_sdk_version_message">要求Android <xliff:g id="android_version_name" example="4.0">%1$s</xliff:g>或以上版本</string>
+    <string name="binary_list_currently_installed">目前已安装</string>
+    <string name="binary_list_different_signature">签名冲突</string>
+    <string name="binary_list_downgrade">降级</string>
+    
+    <!-- Dialog to confirm agreeements to "using distribution apps" guideline -->
+    <string name="terms_title">安装中</string>
+    <string name="terms_message_html">请阅读并同意我们的&lt;a href=\"https://deploygate.com/terms/consumer\">DeployGate使用说明&lt;/a>之后再进一步操作。</string>
+    <string name="terms_agree">同意</string>
+    <string name="terms_disagree">不同意</string>
+    
+    <!-- Dialog to change tester name -->
+    <string name="change_display_name_label">您的昵称</string>
+    <string name="change_display_name_hint">只允许字母，数字和和下划线(限定3～20个字符)</string>
+    <string name="change_display_name_notice">您的昵称将显示在您的评价中，更改后的昵称将应用于所有的评价。</string>
+    <string name="change_display_name_save">保存昵称</string>
+    <string name="change_display_name_cancel">取消</string>
+    <string name="comment_compose_edit_username">更改</string>
+    
+    <!-- Others -->
+    <string name="application_detail_application_name_placeholder">-</string>
+    <string name="application_detail_author_placeholder">-</string>
+    <string name="application_detail_version_placeholder">-</string>
+    <string name="warning_layered_app_detected_title">相关应用正在运行</string>
+    <string name="warning_layered_app_detected">在进一步操作之前，您需要禁止覆盖其它应用的应用程序，否则系统将由于安全问题而无法安装新应用。\n\n可能影响安装的应用:\n<xliff:g id="package_list" example="* Screen Filter">%1$s</xliff:g></string>
+    
+    <!--
+    	#############################################################
+	    Distribution comment board
+    	#############################################################
+    -->
+    <string name="format_unsubscribed_user">[<xliff:g id="display_name" example="username">%s</xliff:g>]</string>
+    <string name="left_user">注销用户</string>
+    
+    <!-- Comment compose -->
+    <string name="comment_compose_placeholder">评价</string>
+    <string name="comment_compose_placeholder_reply">回复<xliff:g id="username" example="username">%s</xliff:g>…</string>
+    <string name="comment_compose_post">发送</string>
+    <string name="comment_compose_cancel">取消</string>
+    
+    <!-- Comment list -->
+    <string name="comment_list_empty_message">本布告板用于与本应用的开发者联系，您可以通过右上角的按钮提出反馈意见。</string>
+    <string name="format_reply_to">回复<xliff:g id="username" example="username">%s</xliff:g></string>
+    <string name="comment_fragment_failed_to_load_comments">消息载入失败，请重试</string>
+    <string name="comment_reply">回复</string>
+    <string name="comment_delete">删除</string>
+    <string name="notification_new_comment_admin_title">来自<xliff:g id="username" example="username">%s</xliff:g>的新评价</string>
+    <string name="notification_comment_reply_title">来自<xliff:g id="username" example="username">%s</xliff:g>的回复</string>
+    <string name="notification_comment_sending_title">发送新评价</string>
+    
+    <!--
+    	#############################################################
+	    Notifications
+    	#############################################################
+    -->
+    <string name="download_notification_start">开始下载<xliff:g id="application_name" example="Example">%1$s</xliff:g></string>
+    <string name="download_notification_finish">完成下载<xliff:g id="application_name" example="Example">%1$s</xliff:g></string>
+    <string name="download_notification_tap_to_install">下载完成，请点击安装。</string>
+    <string name="download_notification_error">错误： <xliff:g id="error_message" example="Network is not connected.">%1$s</xliff:g></string>
+    <string name="download_notification_failed">下载<xliff:g id="application_name" example="Example">%1$s</xliff:g>失败</string>
+    <string name="notification_update_content_text">有可用更新</string>
+    <string name="notification_update_ticker_text">可用更新: <xliff:g id="application_name" example="Example">%1$s</xliff:g></string>
+    <string name="notification_invitation_content_text">新应用邀请</string>
+    <string name="notification_invitation_ticker_text">您收到了一个新应用邀请<xliff:g id="application_name" example="Example">%1$s</xliff:g>.</string>
+    <string name="notification_distribution_description_updated_title">更新</string>
+    <string name="notification_distribution_description_updated_ticker">来自<xliff:g id="distribution_page_name" example="Distribution Page of Example">%1$s</xliff:g>的更新</string>
+    
+    <!-- 
+    	#############################################################
+	    Preferences
+    	#############################################################
+     -->
+    <string name="preferences_title">偏好</string>
+    <string name="preferences_header_notifications">通知</string>
+    <string name="preferences_label_enable_notifications">更新通知</string>
+    <string name="preferences_label_choose_ringtone">铃声</string>
+    <string name="preferences_ringtone_silent">静音</string>
+    <string name="preferences_label_enable_vibrate">震动</string>
+    
+</resources>

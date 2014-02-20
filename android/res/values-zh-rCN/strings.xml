@@ -14,7 +14,7 @@
     <string name="available_list_empty_message">没有可安装应用。</string>
     <string name="app_list_status_installed">已安装</string>
     <string name="app_list_status_not_installed">未安装</string>
-    <string name="app_list_status_update_available"><xliff:g id="revision" example="#12">#%1$d</xliff:g>出新版本了</string>
+    <string name="app_list_status_update_available">新版本<xliff:g id="revision" example="#12">#%1$d</xliff:g></string>
     <string name="content_descripition_distributed_app">已分发应用</string>
     
     <!-- Welcome screen for users who have no application and login session -->
@@ -47,7 +47,7 @@
     -->
     <string name="title_activity_login">登陆DeployGate</string>
     <string name="login_greeting">欢迎使用DeployGate</string>
-    <string name="login_about_to_install_html">在安装&lt;b&gt;<xliff:g id="application_name" example="Example">%1$s</xliff:g>%1$s&lt;/b&gt;应用之前，请先登陆DeployGate。您只需要一分钟就可以完成登陆。</string>
+    <string name="login_about_to_install_html">正在安装&lt;b&gt;<xliff:g id="application_name" example="Example">%1$s</xliff:g>%1$s&lt;/b&gt;应用之前，请先登陆DeployGate。您只需要一分钟就可以完成登陆。</string>
     <string name="login_deploygate_introduction_html">DeployGate是一个应用的测试分发平台。在DeployGate通过开发者发送的邀请，您将能够在最新潮的应用发布之前体验它。&lt;a href=&quot;http://deploygate.com&quot;&gt;了解更多&lt;/a&gt;</string>
     
     <!-- Buttons -->
@@ -57,17 +57,17 @@
     <!-- Forms -->
     <string name="login_form_email_hint">邮件地址</string>
     <string name="login_form_password_hint">密码</string>
-    <string name="login_form_username_hint">用户名包含3~20个字符</string>
+    <string name="login_form_username_hint">用户名在3~20个字符之内</string>
     <string name="login_validation_empty_password">请输入密码</string>
     <string name="login_validation_short_password">密码太短</string>
     <string name="login_validation_empty_email">请输入邮件地址</string>
     <string name="login_validation_invalid_email">请输入有效的邮件地址</string>
     <string name="login_validation_empty_username">请输入用户名</string>
-    <string name="login_validation_short_username">用户名至少3个字符</string>
+    <string name="login_validation_short_username">用户名不能少于3个字符</string>
     <string name="login_validation_long_username">用户名不能超过20个字符</string>
     <string name="login_validation_invalid_username">用户名必须以字母开头，且只能包含字母、数字、下划线和短线。</string>
     <string name="signup_discrimer">请先阅读我们的&lt;a href=&quot;https://deploygate.com/terms&quot;&gt;服务条款&lt;/a&gt;和&lt;a href=&quot;https://deploygate.com/terms/privacy&quot;&gt;隐私政策&lt;/a&gt;</string>
-    <string name="signup_discrimer_2">点击此按钮表面您已同意&lt;a href=&quot;https://deploygate.com/terms&quot;&gt;如下条款&lt;/a&gt;.</string>
+    <string name="signup_discrimer_2">点击此按钮表明您已同意&lt;a href=&quot;https://deploygate.com/terms&quot;&gt;如下条款&lt;/a&gt;.</string>
     <string name="login_error_email_or_password_is_incorrect">用户名或密码错误</string>
     <string name="login_error_device_is_not_found">本设备尚未注册。要开始注册，请点击按钮继续。</string>
     
@@ -93,7 +93,7 @@
     <string name="application_detail_install_instruction_html">请在您的设备的设置中选中&lt;a href=&quot;#&quot;&gt;&lt;b&gt;未知来源&lt;/b&gt;&lt;a&gt;来允许安装此应用。</string>
     <string name="application_detail_non_market_settings_button">设置</string>
     <string name="unknown_sources_guidance_toast_html">请选中&lt;b&gt;&quot;未知来源&quot;&lt;/b&gt;。</string>
-    <string name="application_detail_error_signature_mismatch_html">已安装了使用不同&lt;b&gt;证书&lt;/b&gt; (ver. %1$s=%2$d) 的应用，请在安装前先卸载此应用。</string>
+    <string name="application_detail_error_signature_mismatch_html">已安装了使用不同&lt;b&gt;证书&lt;/b&gt; (ver. %1$s=%2$d) 的应用，请在安装前卸载此应用。</string>
     <string name="application_detail_already_installed_but_not_managed">(ver. <xliff:g id="current_version_name" example="1.0.0">%1$s</xliff:g> (<xliff:g id="current_version_code" example="10">%2$d</xliff:g>))已安装，但并不处于DeployGate的管理之下，点击继续将安装应用并将其置于DeployGate管理之下。</string>
     <string name="application_detail_multiple_identical_package_found_text">已安装来自另一个开发者的相同应用，继续安装会将应用的开发者更改为&lt;b&gt;<xliff:g id="author_name" example="username">%1$s</xliff:g>&lt;/b&gt;.</string>
     <string name="application_detail_sdk_version_is_too_low_html">&lt;b&gt;运行此应用需要Android<xliff:g id="android_version_name" example="4.0">%4$s</xliff:g>&lt;/b&gt; (<xliff:g id="android_sdk_version" example="android-14">android-%2$d</xliff:g>)或以上版本。此设备是Android<xliff:g id="current_android_version" example="2.3">%3$s</xliff:g> (<xliff:g id="current_android_sdk_version" example="android-9">android-%1$s</xliff:g>).&lt;br /&gt;&lt;b&gt;Hint:&lt;/b&gt; 您可以从版本列表中搜索安装对应的版本。</string>
@@ -128,7 +128,7 @@
     
 	<!-- Error toast -->
     <string name="distribution_not_found_toast">找不到应用</string>
-    <string name="distribution_error_failed_to_join">目前无法使用应用</string>
+    <string name="distribution_error_failed_to_join">目前无法使用该应用</string>
 	<string name="app_manager_error_cannot_write_to_external_storage">无法使用外部存储。（没有SD卡或是没有存储空间）</string>
     <string name="distribution_invalid_passcode">验证码已失效，请重新加载页面并输入新的验证码。</string>
 	

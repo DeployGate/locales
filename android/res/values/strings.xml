@@ -176,7 +176,7 @@
     <string name="comment_compose_cancel">Cancel</string>
     
     <!-- Comment list -->
-    <string name="comment_list_empty_message">Here is a bulletin board to communicate with the developer of this app. You may post a comment by clicking the button in the right top.</string>
+    <string name="comment_list_empty_message">Here is a bulletin board to communicate with the developer of this app. You may post a comment by clicking the button in the top right.</string>
     <string name="format_reply_to">In reply to <xliff:g id="username" example="username">%s</xliff:g></string>
     <string name="comment_fragment_failed_to_load_comments">Failed to load comments, try again</string>
     <string name="comment_reply">Reply</string>

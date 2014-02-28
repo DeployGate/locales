@@ -48,7 +48,7 @@
     <string name="title_activity_login">Login to DeployGate</string>
     <string name="login_greeting">Hello.\nWelcome to DeployGate.</string>
     <string name="login_about_to_install_html">Before installing &lt;b&gt;<xliff:g id="application_name" example="Example">%1$s</xliff:g>%1$s&lt;/b&gt; app, please log in to DeployGate. It\'s easy and can be done in a minute.</string>
-    <string name="login_deploygate_introduction_html">DeployGate is a private app distribution service. You may install hot fresh apps via invitation from developers. &lt;a href=&quot;http://deploygate.com&quot;&gt;Learn more&lt;/a&gt;</string>
+    <string name="login_deploygate_introduction_html">DeployGate is a private app distribution service. You can install hot, new apps via invitations from developers. &lt;a href=&quot;http://deploygate.com&quot;&gt;Learn more&lt;/a&gt;</string>
     
     <!-- Buttons -->
     <string name="login_register_button">Sign Up</string>
@@ -65,7 +65,7 @@
     <string name="login_validation_empty_username">Please enter a username.</string>
     <string name="login_validation_short_username">Username must be at least 3 characters long.</string>
     <string name="login_validation_long_username">Username must be 20 characters or shorter.</string>
-    <string name="login_validation_invalid_username">Username can only contain a–z, 0–9, _ and -. The first letter must be an alphabet.</string>
+    <string name="login_validation_invalid_username">Username can only contain a–z, 0–9, _ and -. The first character must be a letter.</string>
     <string name="signup_discrimer">Please read our &lt;a href=&quot;https://deploygate.com/terms&quot;&gt;Terms of Service&lt;/a&gt; and &lt;a href=&quot;https://deploygate.com/terms/privacy&quot;&gt;Privacy Policy&lt;/a&gt; before proceeding.</string>
     <string name="signup_discrimer_2">By clicking the button, you agree to the &lt;a href=&quot;https://deploygate.com/terms&quot;&gt;terms&lt;/a&gt;.</string>
     <string name="login_error_email_or_password_is_incorrect">Email or password is incorrect.</string>
@@ -129,8 +129,8 @@
 	<!-- Error toast -->
     <string name="distribution_not_found_toast">Could not find the app.</string>
     <string name="distribution_error_failed_to_join">Failed to join the distribution</string>
-	<string name="app_manager_error_cannot_write_to_external_storage">Cannot write to external storage. (SD card is missing or no space left?)</string>
-    <string name="distribution_invalid_passcode">The access pass code is no longer valid. Please reload the page and input passcode again.</string>
+	<string name="app_manager_error_cannot_write_to_external_storage">Cannot write to external storage. (SD card is missing or full)</string>
+    <string name="distribution_invalid_passcode">This passcode is no longer valid. Please reload the page and input passcode again.</string>
 	
     <!-- Version archive list -->
     <string name="binary_list_loading">Retrieving archive list</string>
@@ -149,7 +149,7 @@
     <!-- Dialog to change tester name -->
     <string name="change_display_name_label">Your Tester Name</string>
     <string name="change_display_name_hint">3 to 20 alphabets, digits and underscores</string>
-    <string name="change_display_name_notice">Tester name will be displayed on your posts. Changes will be affected to your older posts.</string>
+    <string name="change_display_name_notice">Tester name will be displayed on your posts. Changes will affect your older posts.</string>
     <string name="change_display_name_save">Save Tester Name</string>
     <string name="change_display_name_cancel">Cancel</string>
     <string name="comment_compose_edit_username">Change</string>
@@ -176,7 +176,7 @@
     <string name="comment_compose_cancel">Cancel</string>
     
     <!-- Comment list -->
-    <string name="comment_list_empty_message">Here is a bulletin board to communicate with the developer of this app. You may post a comment starting from the button on right top.</string>
+    <string name="comment_list_empty_message">Here is a bulletin board to communicate with the developer of this app. You may post a comment by clicking the button in the top right.</string>
     <string name="format_reply_to">In reply to <xliff:g id="username" example="username">%s</xliff:g></string>
     <string name="comment_fragment_failed_to_load_comments">Failed to load comments, try again</string>
     <string name="comment_reply">Reply</string>
